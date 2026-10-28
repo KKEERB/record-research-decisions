@@ -1,0 +1,14 @@
+interface:
+  display_name: 科研决策记录
+  short_description: 按需记录改变科研方法、执行计划和研究方向的判断、审批与意见
+  default_prompt: 使用 $record-research-decisions，整理指定对话或项目中改变科研方法、执行计划与研究方向的用户判断、审批和意见，保留来源并增量保存为
+    Markdown。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
